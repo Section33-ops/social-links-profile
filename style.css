@@ -1,3 +1,37 @@
+body {
+  background-color: hsl(0, 0%, 8%);
+}
+
+img {
+  border-radius: 100px;
+  width: 70px;
+}
+
+.location {
+  color: hsl(75, 94%, 57%);
+}
+
+.main_container {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+}
+
+.social_link {
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 5px;
+  padding: 10px 0px;
+  text-align: center;
+}
+
+.social_link:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+  cursor: pointer;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
