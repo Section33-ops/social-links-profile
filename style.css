@@ -7,6 +7,14 @@ img {
   width: 70px;
 }
 
+main {
+  display: flex; /* Enables flexbox */
+  justify-content: center; /* Centers items horizontally */
+  align-items: center; /* Centers items vertically */
+  flex-direction: column; /* Optional: Stack items vertically (like text below an image) */
+  min-height: 200px;
+}
+
 .location {
   color: hsl(75, 94%, 57%);
 }
@@ -17,6 +25,7 @@ img {
   border-radius: 10px;
   padding: 20px;
   width: 300px;
+  text-align: center;
 }
 
 .social_link {
